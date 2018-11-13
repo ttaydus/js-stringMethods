@@ -57,6 +57,8 @@ console.log(scissorHand);
 /*5. Declare a new variable named `theSifu` that will change the current string from "In order to taste my cup of water you must first fill your cup." to "In order to taste my cup of water you must first empty your cup."; Console.log your result.*/
 
 var grasshopper = "In order to taste my cup of water you must first fill your cup.";
+theSifu = grasshopper.replace('fill', 'empty');
+console.log(theSifu);
 
 
 
