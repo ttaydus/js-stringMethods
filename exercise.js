@@ -13,10 +13,13 @@ var howManyLetters = longestPlaceName.length;
 console.log(howManyLetters);
 
 
-
 /*Next, concatenate and console.log the following phrase:
 "x is the longest place name in the world and has y letters in its name."
 where x represents the value at `longestPlaceName` and y represents the value at `howManyLetters`*/
+
+
+var concantenateSample = longestPlaceName + ' is the longest place name in the world and has ' + howManyLetters + ' letters in its name.';
+console.log(concantenateSample);
 
 
 /*The string.charAt() method returns the character at the specified index (position).*/
@@ -24,6 +27,9 @@ where x represents the value at `longestPlaceName` and y represents the value at
 /*2. Declare a variable named `fifthLetter` and find out which letter is in the 5th position in the string below. Console.log your result.*/
 
 var iDidntKnow = "The national animal of Scotland is the Unicorn";
+var fifthLetter = iDidntKnow.charAt(5);
+console.log(fifthLetter);
+
 
 
 
